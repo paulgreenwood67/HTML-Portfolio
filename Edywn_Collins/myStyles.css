@@ -1,0 +1,209 @@
+
+/*this centres the first image*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 49%;
+}
+
+
+/* this is for the menu*/
+.myUL {
+  
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #492a13;
+}
+
+li {
+  display:inline-block
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #cdd0d1;
+}
+
+.active {
+  background-color: #a2bccb;
+}
+
+/* first container*/
+.container1 {width:1020px;
+    margin:0 auto;
+    padding:15px 25px;
+    border:5px solid #492a13;
+    background:#a2bccb; }
+
+
+/* second container*/
+.container2 {
+      display: flex;
+      align-items: left;
+      justify-content: left
+}
+          .image2 {
+            width: 700px; 
+    }
+              .text2 {
+                padding-left: 40px;
+                  text-align: left;
+                  font-family: "Veranda", Helvetica, sans-serif;
+                    color:rgb(105, 101, 95)
+    }
+/* second container....contains youtube video*/
+.container3 {
+      display: flex;
+      align-items: right;
+      justify-content: right
+    }
+        img {
+          max-width: 100%
+    }
+          .youtube1 {
+            padding-top: 4%;
+            flex-basis: 100%
+    }
+    .image3 {
+      padding-top: 2%;
+      flex-basis: 100%
+    }
+ /* Formated text*/
+p {
+      text-align: left;
+      font-family: "Veranda", Helvetica, sans-serif;
+      color:rgb(105, 101, 95)
+  }
+  
+  h1 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: #492a13;
+  }
+  
+  h2 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color:#492a13
+  }
+  
+  h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(105, 101, 95)
+  }
+    .text3 {
+      padding-left: 40px;
+      text-align: left;
+      font-family: "Veranda", Helvetica, sans-serif;
+      color:rgb(105, 101, 95)
+    }
+   
+    .text4 {
+      padding-left: 40px;
+      text-align: left;
+      font-family: "Veranda", Helvetica, sans-serif;
+      color:rgb(105, 101, 95)
+    } 
+    .text5 {
+      text-align: center;
+      font-family: "Veranda", Helvetica, sans-serif;
+      color:#492a13
+  }
+  
+  .text6 {
+        text-align: right;
+        font-family: "Veranda", Helvetica, sans-serif;
+        color:rgb(105, 101, 95)
+  }
+  .text7 {
+      color:#492a13
+  }
+  .text8 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:#492a13
+  
+  } 
+  .text9 {
+    text-align: center;
+    font-family: "Veranda", Helvetica, sans-serif;
+    color:rgb(105, 101, 95)
+  } 
+    .youtube2 {
+      padding-top: 2%;
+      padding-left: 0%;
+      flex-basis: 100%;
+      justify-content: left
+            
+    }
+    .image4 {
+        padding-top: 2%;
+        flex-basis: 80%
+    
+    }
+    /* for the button, not sure why the error?*/
+    .button {
+        float: right;
+        background-color: #492a13;
+        border: none;
+        color: white;
+        padding: 5px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        font-family: Verdana, Arial, Helvetica, sans-serif, sans-serif;
+        margin: 4px 2px;
+        cursor: pointer;
+              
+            }            
+
+
+/* formating the iFrame*/  
+
+
+.frame {
+    width: auto;
+    height: 308px;
+    border: 3px solid #492a13;
+    background: #cdd0d1;
+    margin: auto;
+    padding: 15px 10px;
+  }
+
+ /* for the tables*/
+ #discography {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+#discography td, #discography th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#discography tr:nth-child(even){background-color: #f2f2f2;}
+
+#discography tr:hover {background-color: #ddd;}
+
+#discography th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #492a13;
+  color: white;
+
+}

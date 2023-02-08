@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href ="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"rel ="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  
+    <link href="greenDigital.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/2ae1d7a2be.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+   
+<title>Green Digital</title>
+
+</head>
+<body>
+
+<header>
+<!-- header with logo, navbar start-->
+<div class = "row header">
+    <div class="col-md-12">
+    <nav class = "navbar">
+        <div class = "col-md-2">
+        <div class = "branding">
+            <a href ="index.html">
+            <img class = "img4"  src="images/siteGraphics/logo.png">
+        </a>
+    </div>        
+</div>
+<!-- menu start. To build this responsive menu I followed this YouTube tutorial, from which I learnt a lot! https://www.youtube.com/watch?v=pro3ceh2YZ8-->
+    <label for="input-hamburger" class="hamburger "></label> 
+        <input type="checkbox" id="input-hamburger" hidden>
+            <ul class="menu">
+                <li style = "top:1.5em"><a href = "about.html" class = "menu-link" >About</a></li>
+                <li style = "top:1.5em"><a href = "webdev.html" class = "menu-link">Web Dev</a></li>
+                
+                <li class = "has-dropdown">
+                    <a href = "#" class = "menu-link">Design <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="submenu" >
+                    <li><a href="graphics.html" class = "menu-link">Graphic Design</a></li>
+                    <li><a href="art.html" class = "menu-link">Digital Art</a></li>
+                </ul>
+                <li class = "has-dropdown">
+                    <a href = "#" class = "menu-link">Photography <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="submenu" >
+                    <li><a href="street.html" class = "menu-link">Street</a></li>
+                    <li><a href="wedding.html" class = "menu-link">Wedding</a></li>
+                    <li><a href="lifestyle.html" class = "menu-link">Lifestyle</a></li>
+                </ul>
+                    <li><a href="contact.html" class = "menu-link">Contact</a></li>
+            </ul>
+<!--menu end--> 
+
+<!--social links--> 
+                <ul-social>
+                  <li><h5><a href = "www.facebook.com"><i class="whiteText fa-brands fa-facebook"></i></a></h5></li>
+                  <li><h5><a href = "www.instagram.com"><i class="whiteText fa-brands fa-instagram"></i></a></h5></li>
+                </ul-social>
+<!--social links end--> 
+
+    </nav>  
+</div>
+</header>
+
+<!--Green circle  and text start-->   
+
+<div class = "row white">
+  <div class = "col-md-12">
+      <div class = "streettext">
+        <p class="circle-green"><i class="fa-solid fa-code"></i></p><p style = "color: #333333;"></p>
+          <p></p>
+          <h4 style = "color: #acce7b;;"><b>Web Development</h4></b><p>Web Development is a new, exciting and very enjoyable direction for me.</p> <p>Having said that, I have had experience of web design before now using <em>Dreamweaver</em> and online editors such as <em>SquareSpace</em> and <em>WiX</em>. My photography website is an example of a website I built myself using SquareSpace <a style = "text-decoration: none; color:#333333" href ="https://paulgreenwoodphotography.uk/" target ="_blank"><em><b>(have a look!)</b></em></a>. However, I did not write any code whilst using these. </p>Now I am learning how to write code in <b>JavaScript</b>, <b>HTML</b> and <b>CSS</b>. Infact, I have created this website you are looking using entirely code. I have used <em>HTML</em>, <em>CSS</em>, <em>Bootstrap</em> and a little bit of <em>JavaScript</em>...and of course a little bit of help from the internet! </p> <p>I am enjoying this journey very much and I am very hopeful that I can continue this path once my Bootcamp with <em>HyperionDev</em> is over. It would mean a lot to me if you could spend a little time looking through some of the tasks I have been working on so far on this bootcamp. I know they are not the most amazing examples of coding but to me they have been very enjoyable to create and represent a significant step in my learning.</p><br><p><b>Let's start with some JavaScript</b> (here are a few of the projects I have done so far).</b></p>
+
+</div> 
+</div>
+    
+<!--Green circle and text end--> 
+
+
+
+
+<div class="row white">
+  <div class = "col-md-12">
+      <table class="center table1">
+  
+  <tr>
+    <th style = "color: white">Task</th>
+    <th style = "color: white">Description</th>
+    <th style = "color: white">Link</th>
+  </tr>
+ 
+<!-- guestlist-->
+<tr>
+    <td><b>Guest List</b><br>(Arrays and Maps)</td>
+    <td style= "margin-bottom: 1vh">
+      <ul class="ul-skills">
+        <li style= "margin-bottom: 1vh">Ask the user to input names of people they would like to invite to a dinner
+          party.</li>
+        <li style= "margin-bottom: 1vh">Each name should be added to an array.</li>
+        <li style= "margin-bottom: 1vh">The user can only invite a maximum of ten people. If they try to add more
+          than 10 names, the program should state, “You have already added 10
+          people to your guest list.”</li>
+        <li style= "margin-bottom: 1vh">If the user tries to add an 11th name to the array, the program should
+            say, “You have already added 10 people to your guest list. Would you like to
+            replace someone on the list with this person? y/n: ”</li>
+        <li style= "margin-bottom: 1vh">If the user enters “y”, the program outputs the current guest list and then
+              asks, “Who would you like to replace?”</li>
+        <li style= "margin-bottom: 1vh">The program then replaces the person the user specifies with the 11th
+          person given and outputs the updated list.</li>
+      </ul></td>
+    <td><button  type="button" class="btn btn-dark" onclick = "showList()">Guest List</button>
+      <script src="JS/guestList.js"></script></td>
+  </tr>
+
+  <!-- translator-->  
+  <tr>
+    <td><b>Translator</b><br>(Arrays and Maps)</td>
+    <td style= "margin-bottom: 1vh">
+      <ul class="ul-skills">
+        <li style= "margin-bottom: 1vh">You are going to create a map that can be used as a translator for a
+          language of your choice.</li>
+        <li style= "margin-bottom: 1vh">Create a map with 10 key-value pairs, where the English word is the key,
+          and the translated word is the value.</li>
+        <li style= "margin-bottom: 1vh">Ask the user what word they would like to translate.</li>
+        <li style= "margin-bottom: 1vh">When the user inputs a word that is one of the keys, it should output the
+          corresponding value.</li>
+      </ul></td>
+      <td><button  type="button" class="btn btn-dark" onclick = "showTranslator()">Translator</button>
+      <script src="JS/translator.js"></script></td>
+    </tr>
+
+<!-- calculator-->    
+    <tr>
+    <td><b>Calculator</b><br>(Using Built-In Functions and Defining your own Functions)</td>
+    <td style= "margin-bottom: 1vh">
+      <ul class="ul-skills">
+        <li style= "margin-bottom: 1vh">You are going to create a calculator that can do a calculation on any two
+          numbers you give it.</li>
+        <li style= "margin-bottom: 1vh">You will need to create four functions: <b>Add</b>, <b>Subtract</b>, <b>Multiply</b> and <b>Divide</b>.</li>
+        <li style= "margin-bottom: 1vh">Your calculator should ask the user to input the first number, the second number and what operation they would like to perform on those numbers.</li>
+        <li style= "margin-bottom: 1vh">The program should then log the calculation and the total to the console. For example if the user inputs 6, 7 and multiply, the output would be: 6 x 7 = 42</li>
+      </ul></td>
+      <td><button  type="button" class="btn btn-dark" onclick = "showCalculator()">Calculator</button>
+      <script src="JS/calculator.js"></script></td>
+    </tr>
+
+<!--Cypher-->    
+    <tr> 
+    <td><b>Cypher</b><br>(Arrays, Functions, and String Handling)</td>
+    <td style= "margin-bottom: 1vh">
+      <ul class="ul-skills">
+        <li style= "margin-bottom: 1vh">Your cypher is going to use the 15th letter after the letter you want to use.</li>
+        <li style= "margin-bottom: 1vh">Create a function that will encode any message you give it.</li>
+        <li style= "margin-bottom: 1vh">Print out the encoded message.</li>
+        <li style= "margin-bottom: 1vh">You may not simply create an array of the alphabet!</li>
+      </ul></td>
+        <td><button  type="button" class="btn btn-dark" onclick = "showCypher()">Cypher</button>
+        <script src="JS/cypher.js"></script></td>
+    </tr>
+
+<!--Email-->
+    <tr>
+    <td><b>Email</b><br>(Classes)</td>
+    <td style= "margin-bottom: 1vh">
+      <ul class="ul-skills">
+        <li style= "margin-bottom: 1vh">Create a class definition for an Email that has four attributes.:
+          <b>hasBeenRead</b>, <b>emailContents</b>, <b>isSpam</b>, and <b>fromAddress</b>.</li>
+        <li style= "margin-bottom: 1vh">The constructor should initialise the sender's email address and the email contents.</li>
+        <li style= "margin-bottom: 1vh">The constructor should also initialise <b>hasBeenRead</b> and <b>isSpam</b> to false.</li>
+        <li style= "margin-bottom: 1vh">Create a function in this class called <b>markAsRead</b> which should change <b>hasBeenRead</b> to true.</li>
+        <li style= "margin-bottom: 1vh">Create a function in this class called<b>markAsSpam</b> which should change <b>isSpam</b> to true.</li>
+        <li style= "margin-bottom: 1vh">Create an empty array called inbox to store all emails (note that you can have an array of objects).</li>
+        <li style= "margin-bottom: 1vh"><b>addEmail </b>- which takes in the contents and email address from the received email to make a new Email object and push this object into the inbox.</li>
+        <li style= "margin-bottom: 1vh"><b>getCount</b> - returns the number of messages in the store in the inbox.</li>
+        <li style= "margin-bottom: 1vh"><b>getEmail</b> - returns the contents of an email in the inbox. For this, allow the user to input an index i.e. get_email(i) returns the email stored at position i in the inbox. Once this has been done, has_been_read
+          should now be true.</li>
+        <li style= "margin-bottom: 1vh"><b>getUnreadEmails</b> - should return a list of all the emails that haven’t
+          been read</li>
+        <li style= "margin-bottom: 1vh"><b>getSpamEmails</b> - should return a list of all the emails that have been
+          marked as spam.</li>
+        <li style= "margin-bottom: 1vh"><b>delete</b> - deletes an email in the inbox. Allow the user to enter an index on the email that he wants to delete and remove that object from the inbox list.</li>
+      </ul></td>
+      <td><button  type="button" class="btn btn-dark" onclick = "showEmail()">Email</button>
+      <script src="JS/email.js"></script></td>
+  </tr>
+
+</table>
+  </div>
+</div>
+
+<!--section for small devises start-->
+
+<div class="row white">
+  <div class = "col-md-12">
+      <table class="center table2">
+  <tr>
+    <th style = "color: white">Task</th>
+   <th style = "color: white">Link</th>
+  </tr>
+<!-- guestlist-->  
+  <tr>
+    <td><b>Guest List</b><br>(Arrays and Maps)</td>
+      <ul class="ul-skills">  
+    <td><button  type="button" class="btn btn-dark" onclick = "showList()">Guest List</button>
+      <script src="JS/guestList.js"></script></td>
+  </tr>
+  
+<!-- translator-->    
+  <tr>
+    <td><b>Translator</b><br>(Arrays and Maps)</td>
+      <ul class="ul-skills">
+      <td><button  type="button" class="btn btn-dark" onclick = "showTranslator()">Translator</button>
+      <script src="JS/translator.js"></script></td>
+  </tr>
+    
+<!-- calculator-->      
+  <tr>
+    <td><b>Calculator</b><br>(Using Built-In Functions and Defining your own Functions)</td>   
+      <ul class="ul-skills">
+      <td><button  type="button" class="btn btn-dark" onclick = "showCalculator()">Calculator</button>
+      <script src="JS/calculator.js"></script></td>
+    </tr>
+ 
+<!--Cypher-->
+  <tr>
+    <td><b>Cypher</b><br>(Arrays, Functions, and String Handling)</td>   
+      <ul class="ul-skills">
+        <td><button  type="button" class="btn btn-dark" onclick = "showCypher()">Cypher</button>
+        <script src="JS/cypher.js"></script></td>
+    </tr>
+
+<!--Email-->
+  <tr>
+    <td><b>Email</b><br>(Classes)</td>    
+      <ul class="ul-skills">
+      <td><button  type="button" class="btn btn-dark" onclick = "showEmail()">Email</button>
+      <script src="JS/email.js"></script></td>
+  </tr>
+  
+</table>
+  </div>
+</div>
+
+
+<!--section for small devises start-->
+
+ <div class = "row">
+  <div class = "col-md-12">
+    <div class = "streettext">
+      <p><b>Next is HTML and CSS.</b></p><p>Below is a task in which I was asked to recreate the <b>Periodic Table</b> and make it <b><em>Responsive</em></b>. Some aspect of the styling had to change when the screen size is reduced and there had to be a breakpoint at which the resposive version is replaced by an image.<p>For this website I have added the HTML file for the Periodic Table into an <b>iFrame</b> for there was a conflict between the CSS file for this website and the CSS file for the Periodic Table task. </p><p class = "periodicTfileext">(The responsive version does not display on smaller screens as dictataed by the task.) </p>
+    </div>
+  </div>
+ </div>
+
+<!--Periodic Table-->
+
+<img src="images/periodicTable.png" class = "tableImage">
+<div class = "row col-md-12 iframe">
+ 
+
+  <iframe src="periodic_table/periodicTable.html" title="Periodic Table">
+  </iframe>
+</div>
+</div>
+<!--Periodic Table end-->
+
+<!--Tribute page-->
+
+<div class = "row">
+  <div class = "col-lg-5 col-md-12" style = "background-color: #a2bccb;">
+    <div class = "tribtext">
+        <p class = "tributeText" >Next is  a HTML and CSS task looking at the <b>Box Model</b>. I was asked to create a <b>Tribute Page</b> for somebody inspitrational. For this I chose the singer/singwritter Edwyn Collin (Click image to see web page)</p>
+        </div>
+  </div>
+  <div class = "col-lg-7 col-md-12" style = "background-color:#ebe9e1">
+    <div class = "tribtext">
+      <div  class="tributeImage">
+      <a href ="Edywn_Collins/tribute.html" target="_blank" >
+        <img src="images/edwyn.png" class = "tribImage2">
+      </div>
+        <img src="images/edwyn_sm.png" class = "tribImage">
+      </a> 
+    </div>
+    </div>
+  </div>
+
+
+<!--Tribute page ends-->
+
+
+
+<div-footer class ="row">
+<!--footer-->
+
+<footer>
+  <div class ="row footer">
+      <div class="col-md-12">
+          <div class ="streettext">
+              <p class = "footerContent">This website and all the content on it has been created by Paul Greenwood &copy2022</p>
+              <img class = "img3" src="images/siteGraphics/logo.png">
+          </div>
+      </div>
+      </div>
+  
+  </footer>
+
+ <!--JavaScript for menu Hamburger from the YouTube responsive menu tutorial-->
+ <script type='text/javascript' src='JS/greenDigital.js'></script>
+ 
+</body>
+</html>

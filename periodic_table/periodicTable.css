@@ -1,0 +1,489 @@
+
+/*image to change to at 700px*/
+img{
+    display:none;
+}
+/* media query for image change*/
+@media screen and (max-width: 700px) {
+img {
+    display:block
+       }
+
+       div1{
+        display:none;
+       }
+    }
+
+body{
+    margin-right: 200px;
+    margin-bottom: 50px;
+    background-color:white;
+}
+
+
+/*main div holding the grid*/
+.grid-container {
+    display: grid;
+    row-gap: 0.4vh;
+    column-gap:0.2vw;
+    column-count: 19;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ; 
+    background-color: white;  
+}
+
+/* collection of classes which change the colour of the cells in the grid*/
+.grid-item-yellow {
+        width: 5vw;
+        height: 10vh;
+        border-radius: 5px;
+        background-color: #fffec8;
+        border: 1px solid grey;
+    }
+
+.grid-item-pink {
+        width: 5vw;
+        height: 10vh;
+        border-radius: 5px;
+        background-color: #fec7ca;
+        border: 1px solid grey;
+    }
+.grid-item-purple {
+        width: 5vw;
+        height: 10vh;
+        border-radius: 5px;
+        background-color: #d3d5fe;
+        border: 1px solid grey;
+    }
+.grid-item-blue {
+        width: 5vw;
+        height: 10vh;
+        border-radius: 5px;
+        background-color: #c0deff;
+        border: 1px solid grey;
+    }
+.grid-item-green {
+        width: 5vw;
+        height: 10vh;
+        border-radius: 5px;
+        background-color: #c7ffc8;
+        border: 1px solid grey;
+    }
+.grid-item-olive{
+        width: 5vw;
+        height: 10vh;
+        border-radius: 5px;
+        background-color: #e0edc4;
+        border: 1px solid grey;
+    }
+.grid-item-beige {
+        width: 5vw;
+        height: 10vh;
+        border-radius: 5px;
+        background-color: #ffe4c6;
+        border: 1px solid grey;
+    }
+.grid-item-aqua {
+        width: 5vw;
+        height: 10vh;
+        border-radius: 5px;
+        background-color: #bdffff;
+        border: 1px solid grey;
+    }
+.grid-item-teal {
+        width: 5vw;
+        height: 10vh;
+        border-radius: 5px;
+        background-color: #ceffee;
+        border: 1px solid grey;
+    }
+
+ /*collection of classes for the white grid cells*/   
+
+.grid-item2 {
+        font-size: 2vh;
+        width: 5vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        background-color: white;
+        background-color: white;
+        border: 1px solid white;
+
+    }
+
+.grid-item3 {
+        font-size: 2vh;
+        width: 5vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border: 1px solid white;
+    
+    }
+
+.grid-item4 {
+            width: 5vw;
+            height: 10vh;
+            background-color: white;
+            border: 1px solid white;
+        }
+
+.grid-item5 {
+            width: 5vw;
+            height: 1vh;
+            background-color: white;
+            border: 1px solid white;
+        }
+
+.grid-item6 {
+            width: 5vw;
+            height: 2.5vh;
+            background-color: white;   
+        }
+  
+.grid-item7 {
+        width: 2vw;
+        height: 10vh;
+        background-color: white;
+        border: 1px solid white
+    }
+
+.grid-item8 {
+        width: 2vw;
+        height: 2.5vh;
+        background-color: white;
+    }
+
+.grid-item9 {
+    width: 2vw;
+    height: 1vh;
+    background-color: white;
+}
+
+/*collection of IDs to hold the text in the the grid areas*/ 
+
+#grid-item6 {
+        width: 10vw;
+        height: 16vh;
+        border-radius: 5px;
+        margin-top: 6vh;
+        margin-left: 2vw;
+        
+        background-color: #fffec8;
+        border: 1px solid grey; 
+    }
+
+#grid-item7 {
+        width: 15vw;
+        height: 16vh;
+        padding:0%;
+        margin-top: 5.6vh;
+        margin-left: 13vw;
+        border: 00%;
+        background-color: white;
+        border: 1px solid white;
+    }
+
+#grid-item8 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 27vh;
+        margin-left: 1.6vw;
+        background-color: white
+    }
+
+#grid-item9 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 27vh;
+        margin-left: 6.9vw;
+        background-color: white
+    }
+    
+#grid-item10 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 27vh;
+        margin-left: 12vw;
+        background-color: white
+    }
+
+#grid-item11 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 27vh;
+        margin-left: 17.5vw;
+        background-color: white
+    }
+
+#grid-item12 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 27vh;
+        margin-left: 22.5vw;
+        background-color: white
+    }
+
+#grid-item13 {
+        font-family:Helvetica, Arial, sans-serif ;
+        width:2vw;
+        font-size: 2vh;
+        height: 3vh;
+        margin-top: 27vh;
+        margin-left: 27.8vw;
+        background-color: white
+    }
+
+#grid-item14 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 27vh;
+        margin-left: 1.5vw;
+        background-color: white
+    }
+
+#grid-item15 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 27vh;
+        margin-left: 6.7vw;
+        background-color: white
+    }
+
+#grid-item16 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 27vh;
+        margin-left: 1.5vw;
+        background-color: white
+    }
+
+#grid-item17 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 27vh;
+        margin-left: 6.8vw;
+        background-color: white
+    }
+
+#grid-item18 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 6vh;
+        margin-left: 1.2vw;
+        background-color: white
+    }
+
+#grid-item19 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 6vh;
+        margin-left: 6.8vw;
+        background-color: white
+    }
+
+#grid-item20 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 6vh;
+        margin-left: 12vw;
+        background-color: white
+    }
+
+#grid-item21 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 6vh;
+        margin-left: 17vw;
+        background-color: white
+    }
+
+#grid-item22 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        width:2vw;
+        height: 3vh;
+        margin-top: 6vh;
+        margin-left: 22vw;
+        background-color: white
+    }
+
+#grid-item23 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        text-align: left;
+        line-height: 0.1vh;
+        width:20vw;
+        height: 5.5vh;
+        margin-left: 3vw;
+    
+       
+    }
+
+#grid-item24 {
+        font-family:Helvetica, Arial, sans-serif;
+        font-size: 2vh;
+        text-align: left;
+        text-indent: 0.5vw;
+        line-height: 0.1vh;
+        color: white;
+        width:22vw;
+        height:4vh;
+        margin-top: 3vh;
+        margin-left: 3vw;
+        background-color: #484747;
+    }
+
+#grid-text{    
+        font-size:1.2vh; 
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        line-height: 1.5vh;
+    }
+        
+/* collection of classes for text*/
+
+.text2{
+                
+        font-size: 3vh; 
+        margin-top:15%; 
+        margin-bottom: 20%; 
+        line-height:0.1vh;
+        }
+
+/* media query to change text to red at 900px */
+@media screen and (max-width: 900px) {
+
+.text2{
+            font-size: 3vh;
+            color: red; 
+            margin-top:15%; 
+            margin-bottom: 20%; 
+            line-height:0.1vh;        
+}
+    }
+
+.text3{
+        font-size: 1.5vh;
+        line-height:1.8vh;
+        margin-top: 1vh;  
+}
+
+.textForBox1{
+    font-size:1.7vh; 
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    line-height: 2.5vh;    
+}
+
+.textForBox2{
+    font-size:1.7vh; 
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    line-height: 2.5vh; 
+}
+
+.textFor1A{ 
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 5vh; 
+    margin-top:2vh; 
+    margin-bottom: 0.1%; 
+    line-height:1.5vh;
+}
+
+.textFor1B{
+    font-family:Helvetica, Arial, sans-serif; ;    
+    font-size: 3vh;
+    line-height:1vh
+}
+
+.textFor2A{ 
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 5vh; 
+    margin-top:2vh; 
+    margin-bottom: 0.1%; 
+    line-height:1.5vh;
+    text-align: left;
+}
+.textFor2B{
+    font-family:Helvetica, Arial, sans-serif;    
+    font-size: 3vh;
+    line-height:1.5vh;
+    text-align: left
+}
+
+.textForHeading{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 2vh;
+    text-align: center; 
+}
+
+.textForSide{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;   
+}
+
+.textForTop{
+    font-family:Helvetica, Arial, sans-serif;
+    font-size: 2vh;
+    text-align: center;    
+}
+
+/*collection of classes for the grid 'areas'*/
+.row1 {
+            grid-area:2/ 4 / span 3 / span 2; ;
+            text-align: center;
+            background-color: white;
+}
+
+.row2 {
+            grid-area:2/ 6 / span 3 / span 6; ;
+            text-align: center;
+            background-color: #fffec8;
+}
+
+.row3 {
+            grid-area:2/ 12/ span 3 / span 2; ;
+            text-align: center;
+            background-color: white;
+        }
+
+.row4 {
+            grid-area:2/ 14/ span 1 / span 5; ;
+            text-align: center;
+           
+ }
+      
+    

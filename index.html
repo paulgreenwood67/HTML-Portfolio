@@ -1,0 +1,110 @@
+<!-- I have probably spent a lot longer on this than I should have, but as was said in the 'Walkthrough' video this is 'showpiece' piece of work to present to potential employers so I wanted to do the best I could. 
+I have used online resources such as YouTube and W3 Schools to help in building it and they proved very useful and I learnt a lot from them-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href ="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"rel ="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  
+    <link href="greenDigital.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/2ae1d7a2be.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+   
+<title>Green Digital</title>
+
+</head>
+<body>
+
+<header>
+<!-- header with logo, navbar start-->
+<div class = "row header">
+    <div class="col-md-12">
+    <nav class = "navbar">
+        <div class = "col-md-2">
+        <div class = "branding">
+            <a href ="index.html">
+            <img src="images/siteGraphics/logo.png" class = "img4">
+        </a>
+    </div>        
+</div>
+
+<!-- menu start. To build this responsive menu I followed this YouTube tutorial, from which I learnt a lot! https://www.youtube.com/watch?v=pro3ceh2YZ8-->
+    <label for="input-hamburger" class="hamburger "></label> 
+        <input type="checkbox" id="input-hamburger" hidden>
+            <ul class="menu">
+                <li style = "top:1.5em"><a href = "about.html" class = "menu-link" >About</a></li>
+                <li style = "top:1.5em"><a href = "webdev.html" class = "menu-link">Web Dev</a></li>
+                
+                <li class = "has-dropdown">
+                    <a href = "#" class = "menu-link">Design <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="submenu" >
+                    <li><a href="graphics.html" class = "menu-link">Graphic Design</a></li>
+                    <li><a href="art.html" class = "menu-link">Digital Art</a></li>
+                </ul>
+                <li class = "has-dropdown">
+                    <a href = "#" class = "menu-link">Photography <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="submenu" >
+                    <li><a href="street.html" class = "menu-link">Street</a></li>
+                    <li><a href="wedding.html" class = "menu-link">Wedding</a></li>
+                    <li><a href="lifestyle.html" class = "menu-link">Lifestyle</a></li>
+                </ul>
+                    <li><a href="contact.html" class = "menu-link">Contact</a></li>
+            </ul>
+<!--menu end--> 
+
+<!--social links--> 
+                <ul-social>
+                  <li><h5><a href = "www.facebook.com"><i class="whiteText fa-brands fa-facebook"></i></a></h5></li>
+                  <li><h5><a href = "www.instagram.com"><i class="whiteText fa-brands fa-instagram"></i></a></h5></li>
+                </ul-social>
+<!--social links end--> 
+
+    </nav>  
+</div>
+</header>
+    <div class="row gx-1">
+        <div class="p-0.5 border bg-light">
+        </div>
+</div>
+
+<div-cover class = "row">
+         <img src="images/03.jpg">
+    </div-cover>
+
+   
+
+<div class="row gx-1">
+        <div class="p-0.5 border bg-light">
+        </div>
+
+        
+
+<div class="row grey gx-1">
+            <div class="col-md-12">
+                <div class="p-2">
+                </div>
+            </div>
+        </div> 
+  
+      <!--footer-->
+<footer>
+    <div class ="row footer">
+        <div class="col-md-12">
+            <div class ="footertext">
+                <p class = "footerContent">This website and all the content on it has been created by Paul Greenwood &copy2022</p>
+                <img class = "img3" src="images/siteGraphics/logo.png">
+            </div>
+        </div>
+        </div>
+    
+    </footer>
+
+  <!--JavaScript for menu Hamburger from the YouTube responsive menu tutorial-->
+    <script type='text/javascript' src='JS/greenDigital.js'></script>
+  
+ 
+</body>
+</html>

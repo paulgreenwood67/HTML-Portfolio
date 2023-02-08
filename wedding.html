@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href ="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"rel ="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">  
+    <link href="greenDigital.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/2ae1d7a2be.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+   
+<title>Green Digital</title>
+
+</head>
+<body>
+
+<header>
+<!-- header with logo, navbar start-->
+<div class = "row header">
+    <div class="col-md-12">
+    <nav class = "navbar">
+        <div class = "col-md-2">
+        <div class = "branding">
+            <a href ="index.html">
+              <img class = "img4" src="images/siteGraphics/logo.png">
+        </a>
+    </div>        
+</div>
+
+<!-- menu start. To build this responsive menu I followed this YouTube tutorial, from which I learnt a lot! https://www.youtube.com/watch?v=pro3ceh2YZ8-->
+    <label for="input-hamburger" class="hamburger "></label> 
+        <input type="checkbox" id="input-hamburger" hidden>
+            <ul class="menu">
+                <li style = "top:1.5em"><a href = "about.html" class = "menu-link" >About</a></li>
+                <li style = "top:1.5em"><a href = "webdev.html" class = "menu-link">Web Dev</a></li>
+                
+                <li class = "has-dropdown">
+                    <a href = "#" class = "menu-link">Design <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="submenu" >
+                    <li><a href="graphics.html" class = "menu-link">Graphic Design</a></li>
+                    <li><a href="art.html" class = "menu-link">Digital Art</a></li>
+                </ul>
+                <li class = "has-dropdown">
+                    <a href = "#" class = "menu-link">Photography <i class="fa-solid fa-angle-down"></i></a>
+                <ul class="submenu" >
+                    <li><a href="street.html" class = "menu-link">Street</a></li>
+                    <li><a href="wedding.html" class = "menu-link">Wedding</a></li>
+                    <li><a href="lifestyle.html" class = "menu-link">Lifestyle</a></li>
+                </ul>
+                    <li><a href="contact.html" class = "menu-link">Contact</a></li>
+            </ul>
+<!--menu end--> 
+
+<!--social links--> 
+                <ul-social>
+                  <li><h5><a href = "www.facebook.com"><i class="whiteText fa-brands fa-facebook"></i></a></h5></li>
+                  <li><h5><a href = "www.instagram.com"><i class="whiteText fa-brands fa-instagram"></i></a></h5></li>
+                </ul-social>
+<!--social links end--> 
+
+    </nav>  
+</div>
+</header>
+
+<!--Green circle  and text start-->   
+
+<div class = "row white">
+  <div class = "col-md-12">
+      <div class = "streettext">
+        <p class="circle-green"><i class="fa-solid fa-camera"></i></p><p style = "color: #333333;"></p>
+          <p></p>
+          <h4 style = "color: #acce7b;;"><b>Wedding Photography</h4></b><p>My style of Wedding Photography is what is know as the <b>Documentary</b> or <b>Reportage</b> style. That is to say I would try and capture a couples wedding day as it happened with very little intervention or direction from myself. There was always time for a few 'posed' shots but for me I prefered to let they day happen and capture those unique personal moments.</p><p>For me Wedding Photography is (was) something I would do as a sideline for a little extra cash. Covid had a huge effect on the wedding industry including photographers and it has been a few years since I shot a wedding.</p><p> More can be seen <a style = "text-decoration: none; color:#333333" href ="https://paulgreenwoodphotography.uk/gallery-2" target ="_blank"><em><b>here</b></em></a>
+    </div> 
+</div>
+
+<!-- Gallery --- https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_img_thumbnail2&stacked=h-->
+
+<div class="container-street white">
+    <div class="row">
+    <div class ="galtext">
+    <h2 style = "font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:#333333">Gallery</h2>
+    <p>Click on the images to enlarge them.</p>
+    <div class="container-street white galleryCenterAlign ">
+    </div>
+  </div>  
+<div class="row galleryCenter ">  
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/01.jpeg" target="_blank">
+            <img src="images/wedding/01.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/02.jpeg" target="_blank">
+            <img src="images/wedding/02.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/03.jpeg" target="_blank">
+            <img src="images/wedding/03.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/04.jpeg" target="_blank">
+            <img src="images/wedding/04.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/05.jpeg" target="_blank">
+            <img src="images/wedding/05.jpeg"" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/06.jpeg" target="_blank">
+            <img src="images/wedding/06.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/07.jpeg" target="_blank">
+            <img src="images/wedding/07.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/08.jpeg" target="_blank">
+            <img src="images/wedding/08.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/09.jpeg" target="_blank">
+            <img src="images/wedding/09.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/10.jpeg" target="_blank">
+            <img src="images/wedding/10.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/11.jpeg" target="_blank">
+            <img src="images/wedding/11.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/12.jpeg" target="_blank">
+            <img src="images/wedding/12.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/14.jpeg" target="_blank">
+            <img src="images/wedding/14.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/15.jpeg" target="_blank">
+            <img src="images/wedding/15.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/16.jpeg" target="_blank">
+            <img src="images/wedding/16.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/17.jpeg" target="_blank">
+            <img src="images/wedding/17.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/18.jpeg" target="_blank">
+            <img src="images/wedding/18.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/19.jpeg" target="_blank">
+            <img src="images/wedding/19.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/20.jpeg" target="_blank">
+            <img src="images/wedding/20.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/21.jpeg" target="_blank">
+            <img src="images/wedding/21.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/22.jpeg" target="_blank">
+            <img src="images/wedding/22.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/23.jpeg" target="_blank">
+            <img src="images/wedding/23.jpeg" alt="Weddingd" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/24.jpeg" target="_blank">
+            <img src="images/wedding/24.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/36.jpeg" target="_blank">
+            <img src="images/wedding/36.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/25.jpeg" target="_blank">
+            <img src="images/wedding/25.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/27.jpeg" target="_blank">
+            <img src="images/wedding/27.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/28.jpeg" target="_blank">
+            <img src="images/wedding/28.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/28a.jpeg" target="_blank">
+            <img src="images/wedding/28a.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/29.jpeg" target="_blank">
+            <img src="images/wedding/29.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/30.jpeg" target="_blank">
+            <img src="images/wedding/30.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/13.jpeg" target="_blank">
+            <img src="images/wedding/13.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+                <p></p>
+              </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/31.jpeg" target="_blank">
+            <img src="images/wedding/31.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/32.jpeg" target="_blank">
+            <img src="images/wedding/32.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/33.jpeg" target="_blank">
+            <img src="images/wedding/33.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/34.jpeg" target="_blank">
+            <img src="images/wedding/34.jpeg" alt="Wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class=" galfont col-md-3">
+        <div class="thumbnail">
+          <a href="images/wedding/35.jpeg" target="_blank">
+            <img src="images/wedding/35.jpeg" alt="wedding" style="width:100%">
+            <div class="caption">
+              <p></p>
+            </div>
+          </a>
+        </div>
+      </div>
+</div>
+  </div>
+  
+<!--footer-->
+<footer>
+  <div class ="row footer">
+      <div class="col-md-12">
+          <div class ="streettext">
+              <p class = "footerContent">This website and all the content on it has been created by Paul Greenwood &copy2022</p>
+              <img class = "img3" src="images/siteGraphics/logo.png">
+          </div>
+      </div>
+      </div>
+  
+  </footer>
+
+    <!--JavaScript for menu Hamburger from the YouTube responsive menu tutorial-->
+    <script type='text/javascript' src='JS/greenDigital.js'></script>
+ 
+</body>
+</html>
